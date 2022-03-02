@@ -41,7 +41,7 @@ function generatePassword() {
       possibleTypes = possibleTypes + numbers;
     }
     if (symbol) {
-      possibleTypes = possibleTypes + symbol;
+      possibleTypes = possibleTypes + symbols;
     }
     for (var i=0; i < length; i++){
       var random = Math.floor(Math.random() * possibleTypes.length)
